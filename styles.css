@@ -1,0 +1,29 @@
+h1, h2, h3 {
+    font-family: "Josefin Slab", "Garamond", serif;
+    text-align: left;
+    text-indent: 18%;
+}
+
+p {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    text-indent: 0%;
+}
+
+.code {
+    font-family: "Consolas", monospace;
+    margin: auto;
+    width: 70%;
+    background-color: rgba(211, 211, 211, 0.66);
+}
