@@ -1,13 +1,39 @@
+body {
+    margin: 0;
+}
+
+/* page divisons */
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.page_margin {
+    background-color: rgb(203, 174, 129);
+    flex: auto;
+}
+
+.page_body {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    width: 80%;
+    min-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    flex: auto;
+}
+
+
+/* basic in-built paragraphs and headings */
+
 h1, h2, h3 {
     font-family: "Josefin Slab", "Garamond", serif;
-    text-align: left;
-    text-indent: 18%;
+    font-size: 30px;
 }
 
 p {
-    font-family: "Montserrat", "Roboto", sans-serif;
-    font-size: 26px;
-    text-align: center;
+    font-size: 16px;
 }
 
 img {
@@ -15,10 +41,10 @@ img {
     height: auto;
 }
 
+/* generic text types */
+
 .title {
-    text-align: center;
     font-size: 60px;
-    text-indent: 0%;
 }
 
 .code {
