@@ -1,39 +1,16 @@
-body {
-    margin: 0;
-}
+/* font-y stuff */
 
-/* page divisons */
-
-.container {
-    display: flex;
-    min-height: 100vh;
-}
-
-.page_margin {
-    background-color: rgb(203, 174, 129);
-    flex: auto;
-}
-
-.page_body {
-    font-family: "Montserrat", "Roboto", sans-serif;
-    width: 80%;
-    min-width: 700px;
-    margin: 0 auto;
-    background-color: white;
-    text-align: center;
-    flex: auto;
-}
-
-
-/* basic in-built paragraphs and headings */
-
-h1, h2, h3 {
+h1, h2, h3, p, a {
     font-family: "Josefin Slab", "Garamond", serif;
-    font-size: 30px;
+    /*font-family: "Consolas", monospace;*/
 }
 
-p {
-    font-size: 16px;
+h1.title {
+    font-size:70px;
+    margin: 0;
+    color: rgb(255, 62, 255);
+    text-shadow: pink 0 0 10px;
+    text-align: center;
 }
 
 img {
@@ -41,15 +18,56 @@ img {
     height: auto;
 }
 
-/* generic text types */
-
-.title {
-    font-size: 60px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.code {
-    font-family: "Consolas", monospace;
-    margin: auto;
-    width: 70%;
-    background-color: rgba(211, 211, 211, 0.66);
+/* meat-y stuff */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25%;
+    background-color: rgb(91, 91, 91);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.left-buttons, .right-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+a.button, a.mega-button {
+    font-size: 32px;
+    border-radius: 20px;
+    background-color: rgb(231, 42, 219);
+    padding: 10px;
+    margin: 10px;
+}
+
+a.mega-button {
+    font-size: 50px;
+    margin: 0px;
 }
